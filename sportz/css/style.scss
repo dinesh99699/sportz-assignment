@@ -1,0 +1,659 @@
+@import "global";
+@import "header";
+@import "screen2";
+@import "screen3";
+body {
+    margin: 0 auto;
+    line-height: normal;
+}
+.theme-5-create-team {
+	position: relative;
+	width: 100%;
+	height: 667px;
+	overflow: hidden;
+	text-align: center;
+	font-size: $font-size-2xs;
+	color: $color_1;
+	font-family: $myFont;
+}
+.theme-5-create-team1{
+	position: relative;
+	width: 100%;
+	height: 780px;
+	overflow: hidden;
+	text-align: center;
+	font-size: $font-size-2xs;
+	color: $color_1;
+	font-family: $myFont;
+}
+.logos {
+    display: flex;
+    width: 375px;
+    justify-content: space-around;
+    background: #000;
+    padding: $padding;
+}
+.logos{
+    img{
+        filter: invert(1);
+        width: 100%;
+        height: 100%;
+    }
+}
+.icon {
+	position: absolute;
+	left: 0;
+	object-fit: cover;
+	top: 0;
+	width: 375px;
+	height: 298px;
+}
+.pitch-icon {
+	position: absolute;
+	left: 0;
+	object-fit: cover;
+	top: -175px;
+	width: 0;
+	height: 0;
+	display: none;
+}
+.jersey-icon {
+	top: 0;
+	left: 17px;
+	width: 40.92px;
+	height: 38px;
+	overflow: hidden;
+	position: absolute;
+}
+.frame-item {
+	position: absolute;
+	top: 0;
+	left: 63px;
+	width: 53px;
+	height: 14px;
+}
+.m1 {
+	position: absolute;
+	top: calc(50% - 6px);
+	left: calc(50% - 15px);
+}
+.frame-inner {
+	position: absolute;
+	left: 0;
+	width: 74px;
+	top: 0;
+	height: 16px;
+}
+.vector-parent {
+	position: absolute;
+	left: 0;
+	width: 74px;
+	top: 50px;
+	height: 14px;
+	overflow: hidden;
+}
+.player-name {
+	position: absolute;
+	top: 2px;
+	left: 9px;
+}
+.vector-group {
+	position: absolute;
+	top: 2px;
+	left: 9px;
+	top: 34px;
+	left: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+	width: 74px;
+	height: 16px;
+}
+.player-mobile-child {
+	position: absolute;
+	top: 67px;
+	left: 21px;
+	width: 31px;
+	height: 6px;
+	display: none;
+}
+.remove-icon {
+	position: absolute;
+	height: 23.44%;
+	width: 20.27%;
+	top: 0;
+	right: 14.86%;
+	bottom: 76.56%;
+	left: 64.86%;
+	border-radius: $br-21xl;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+}
+.red-icon {
+	position: absolute;
+	top: 0;
+	left: 48px;
+	width: 15px;
+	height: 15px;
+	display: none;
+}
+.captain-icon {
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	height: 23.44%;
+	width: 20.27%;
+	top: 31.25%;
+	right: 13.51%;
+	bottom: 45.31%;
+	left: 66.22%;
+	border-radius: $br-21xl;
+	max-width: 100%;
+	max-height: 100%;
+}
+.status-icon {
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	top: 20px;
+	left: 11px;
+	border-radius: $br-81xl;
+	width: 15px;
+	height: 15px;
+}
+.player-mobile {
+	position: relative;
+	width: 74px;
+	height: 64px;
+	flex-shrink: 0;
+	display: none;
+}
+.jersey-icon1 {
+	position: absolute;
+	top: 8px;
+	left: 20px;
+	width: 35px;
+	height: 32px;
+	overflow: hidden;
+}
+.rectangle-icon {
+	position: absolute;
+	top: 0;
+	left: 63px;
+	width: 53px;
+	height: 14px;
+	display: none;
+}
+.frame-child1 {
+	position: absolute;
+	top: 0.3px;
+	left: 5.3px;
+	border-radius: 0 0 $br-11xs $br-11xs;
+	background-color: $background-color_3;
+	border: 0.7px solid $background-color_16;
+	box-sizing: border-box;
+	width: 63.4px;
+	height: 14.4px;
+}
+.m2 {
+	position: absolute;
+	top: calc(50% - 6.5px);
+	left: calc(50% - 15px);
+}
+.vector-container {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 74px;
+	height: 15px;
+	overflow: hidden;
+}
+.frame-child2 {
+	position: absolute;
+	top: 0;
+	left: 74px;
+	width: 74px;
+	height: 16px;
+	display: none;
+}
+.frame-child3 {
+	position: absolute;
+	top: -0.7px;
+	left: -0.7px;
+	border-radius: $br-11xs;
+	background-color: $background-color_10;
+	border: 0.7px solid $background-color_16;
+	box-sizing: border-box;
+	width: 73.4px;
+	height: 18.4px;
+}
+.player-mobile-inner {
+	position: absolute;
+	top: 74px;
+	left: 21px;
+	width: 31px;
+	height: 6px;
+	display: none;
+}
+.remove-icon1 {
+	position: absolute;
+	height: 21.88%;
+	width: 18.92%;
+	top: 12.5%;
+	right: 16.22%;
+	bottom: 65.63%;
+	left: 64.86%;
+	border-radius: $br-21xl;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+}
+.group-icon {
+	position: absolute;
+	top: 0;
+	left: 48px;
+	width: 0;
+	height: 0;
+	display: none;
+}
+.captain-icon1 {
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	height: 21.88%;
+	width: 18.92%;
+	top: 32.81%;
+	right: 16.22%;
+	bottom: 45.31%;
+	left: 64.86%;
+	border-radius: $br-21xl;
+	max-width: 100%;
+	max-height: 100%;
+}
+.status-icon1 {
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	top: 21px;
+	left: 14px;
+	border-radius: $br-81xl;
+	width: 14px;
+	height: 14px;
+}
+.player-mobile1 {
+	position: relative;
+	width: 74px;
+	height: 64px;
+	flex-shrink: 0;
+}
+.player-mobile1 {
+    a{
+        text-decoration: none;
+        color: $color_3;
+    }
+}
+.frame-child7 {
+	position: absolute;
+	top: -0.7px;
+	left: 1.3px;
+	border-radius: $br-11xs;
+	background-color: $background-color_10;
+	border: 0.7px solid $background-color_16;
+	box-sizing: border-box;
+	width: 71.4px;
+	height: 18.4px;
+}
+.jersey-icon4 {
+	position: absolute;
+	top: 3px;
+	left: 17px;
+	width: 40.92px;
+	height: 38px;
+	overflow: hidden;
+}
+.vector-parent5 {
+	position: absolute;
+	left: 0;
+	width: 74px;
+	display: none;
+	top: 50px;
+	height: 14px;
+	overflow: hidden;
+}
+.vector-parent6 {
+	position: absolute;
+	left: 0;
+	width: 74px;
+	display: none;
+	top: 34px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+	height: 16px;
+}
+.frame-child15 {
+	position: absolute;
+	top: -0.7px;
+	left: -0.7px;
+	border-radius: $br-11xs;
+	background-color: $background-color_10;
+	border: 0.7px solid $background-color_16;
+	box-sizing: border-box;
+	width: 75.4px;
+	height: 18.4px;
+}
+.remove-icon4 {
+	position: absolute;
+	height: 21.88%;
+	width: 18.92%;
+	top: 4.69%;
+	right: 16.22%;
+	bottom: 73.44%;
+	left: 64.86%;
+	border-radius: $br-21xl;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+}
+.player-mobile-parent {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	gap: $gap-lg;
+}
+.frame-child26 {
+	position: absolute;
+	top: 3px;
+	left: 18px;
+	width: 38px;
+	height: 35.29px;
+	top: 1px;
+	left: 74px;
+	width: 74px;
+	height: 16px;
+	display: none;
+}
+.jersey-icon7 {
+	position: absolute;
+	top: 3px;
+	left: 18px;
+	width: 38px;
+	height: 35.29px;
+}
+.add-player {
+	position: absolute;
+	top: 3px;
+	left: 14px;
+	font-weight: 600;
+}
+.vector-parent15 {
+	position: absolute;
+	top: 33px;
+	left: 0;
+	width: 74px;
+	height: 17px;
+}
+.player-mobile7 {
+	position: relative;
+	width: 74px;
+	height: 64px;
+	flex-shrink: 0;
+	color: $color_3;
+}
+.player-mobile7{
+    a{
+        text-decoration: none;
+        color: $color_3;
+    }
+}
+.player-mobile-container {
+	gap: 14px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	color: $color_3;
+}
+.player-mobile-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	color: $color_3;
+}
+.frame-group {
+	position: absolute;
+	top: 0;
+	left: 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	font-size: $font-size-4xs;
+}
+.back-icon {
+	position: relative;
+	width: 7.2px;
+	height: 12px;
+	flex-shrink: 0;
+}
+.all-players {
+	position: absolute;
+	top: 232px;
+	background-color: $background-color_11;
+	border: 1px solid $color_1;
+	display: flex;
+	flex-direction: row;
+	padding: $padding-5xs $padding-lg $padding-5xs $padding-lg;
+	align-items: center;
+	justify-content: center;
+	right: 0;
+	border-radius: $br-5xs 0 0 $br-5xs;
+}
+.formation {
+	position: absolute;
+	top: 232px;
+	background-color: $background-color_11;
+	border: 1px solid $color_1;
+	display: flex;
+	flex-direction: row;
+	padding: $padding-5xs $padding-lg $padding-5xs $padding-xl;
+	align-items: center;
+	justify-content: center;
+	left: 0;
+	border-radius: 0 $br-5xs $br-5xs 0;
+	gap: $gap-xs;
+}
+.group-child4 {
+	top: 0;
+	left: 0;
+	border-radius: $br-3xs;
+	background-color: $background-color_7;
+	width: 87px;
+	opacity: 0.4;
+	position: absolute;
+	height: 82px;
+}
+.group-child5 {
+	position: absolute;
+	height: 82px;
+	top: 0;
+	left: 101px;
+	border-radius: $br-3xs;
+	background-color: $background-color_7;
+	width: 257px;
+	opacity: 0.4;
+}
+.group-div {
+	position: absolute;
+	height: 82px;
+	top: 3px;
+	left: 0;
+	width: 358px;
+}
+.player-mobile14 {
+	position: absolute;
+	top: 0;
+	font-size: $font-size-4xs;
+	color: $color_3;
+	left: 0;
+	width: 74px;
+	height: 64px;
+}
+.player-mobile14 {
+    a{
+        text-decoration: none;
+        color: $color_3;
+    }
+}
+.subs1 {
+	position: absolute;
+	top: 0;
+	font-size: $font-size-4xs;
+	color: $color_3;
+	left: calc(50% - 70px);
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 10px;
+}
+.def {
+	@extend %gk;
+}
+.fwd {
+	@extend %gk;
+}
+.gk{
+    @extend %gk;
+}
+.mid {
+	@extend %gk;
+}
+.group-parent {
+	position: absolute;
+	top: 0;
+	left: 6px;
+	width: 344px;
+	height: 81px;
+	top: 292px;
+	left: 10px;
+	width: 358px;
+	height: 85px;
+	font-size: $font-size-2xs;
+}
+.subs {
+	position: absolute;
+	top: 0;
+	left: 6px;
+	width: 344px;
+	height: 81px;
+}
+.players {
+	position: absolute;
+	top: 6px;
+	left: -1px;
+	width: 377px;
+	height: 377px;
+}
+.save-team {
+	position: relative;
+	font-weight: 600;
+}
+.cta-button {
+	position: absolute;
+	top: 398px;
+	left: calc(50% - 102.5px);
+	border-radius: $br-7xs;
+	background-color: $background-color_12;
+	width: 205px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: $font-size-base;
+	color: $color_4;
+    text-decoration: none;
+    color: $background-color_10;
+}
+.frame-section {
+	position: absolute;
+	top: 212px;
+	left: 0;
+	width: 375px;
+	height: 517px;
+	overflow: hidden;
+	text-align: center;
+	font-size: $font-size-sm;
+	color: $color_1;
+	font-family: $myFont;
+}
+.price {
+	position: absolute;
+	top: 19.23%;
+	left: 36.28%;
+	line-height: 130%;
+	font-weight: 600;
+}
+.elements-segmented-control1 {
+	flex: 1;
+	position: relative;
+	border-radius: $br-9xs;
+	background-color: $background-color_13;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	height: 26px;
+	cursor: pointer;
+}
+.fixtures {
+	position: absolute;
+	top: 19.23%;
+	left: 27.43%;
+	line-height: 130%;
+	font-weight: 600;
+}
+.elements-segmented-control2 {
+	flex: 1;
+	position: relative;
+	border-radius: $br-9xs;
+	height: 26px;
+	color: $color_5;
+}
+.date {
+	position: absolute;
+	top: 19.23%;
+	left: 36.28%;
+	font-size: $font-size-2xs;
+	line-height: 130%;
+	font-weight: 600;
+	font-family: $myFont;
+	color: $color_5;
+	text-align: center;
+}
+.elements-segmented-control3 {
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: $background-color_14;
+	flex: 1;
+	position: relative;
+	border-radius: $br-9xs;
+	height: 26px;
+}
+.elements-segmented-control {
+	position: absolute;
+	top: 60px;
+	left: 32px;
+	border-radius: $br-7xs;
+	background-color: $background-color_4;
+	width: 311px;
+	display: flex;
+	flex-direction: row;
+	padding: 2px;
+	box-sizing: border-box;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 1px;
+}
+
+
+

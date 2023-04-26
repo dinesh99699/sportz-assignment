@@ -1,0 +1,34 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 608" width="375" height="608">
+	<title>image</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 10c0-5.52 4.48-10 10-10h111c5.52 0 10 4.48 10 10v92h-131z"/>
+		</clipPath>
+		<linearGradient id="g1" x1="62.1" y1="-36" x2="140" y2="98.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#b4033a" stop-opacity="1"/>
+			<stop offset=".665" stop-color="#b4033a" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="28.7" y1="-17" x2="106.6" y2="117.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#b4033a" stop-opacity="1"/>
+			<stop offset=".665" stop-color="#b4033a" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="g3" x1="-4.6" y1="2" x2="73.3" y2="136.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#b4033a" stop-opacity="1"/>
+			<stop offset=".665" stop-color="#b4033a" stop-opacity="0"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: #111b58 } 
+		.s1 { fill: url(#g1) } 
+		.s2 { fill: url(#g2) } 
+		.s3 { fill: url(#g3) } 
+	</style>
+	<path id="Layer" class="s0" d="m0 10c0-5.5 4.5-10 10-10h355c5.5 0 10 4.5 10 10v598h-375z"/>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<path id="Layer" class="s1" d="m75.6-43.8l-27 15.6 77.9 134.8 26.9-15.5z"/>
+			<path id="Layer" class="s2" d="m42.2-24.8l-26.9 15.6 77.8 134.8 27-15.6z"/>
+			<path id="Layer" class="s3" d="m8.9-5.8l-27 15.5 77.9 134.9 26.9-15.6z"/>
+		</g>
+	</g>
+</svg>

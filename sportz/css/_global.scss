@@ -1,0 +1,101 @@
+
+/*Fonts*/
+$myFont: 'Open Sans', sans-serif;
+
+
+/* font sizes */
+$font-size-xs: 12px;
+$font-size-base: 16px;
+$font-size-2xs: 12px;
+$font-size-4xs: 9px;
+$font-size-sm: 14px;
+$font-size-3xs: 10px;
+$font-size-lg: 18px;
+
+/*Colors*/
+$gray-6: #f2f2f2;
+$pantone-192-c: #ff125a;
+$color_1: #fff;
+$color_2: rgba(255, 255, 255, 0.7);
+$color_3: #ffd037;
+$color_4: #111948;
+$color_5: rgba(255, 255, 255, 0.5);
+$background-color_1: #111b58;
+$background-color_2: #2f0417;
+$background-color_3: #590320;
+$background-color_4: #041332;
+$background-color_5: #010f2d;
+$background-color_6: #b4033a;
+$background-color_7: #000;
+$background-color_8: rgba(180, 3, 58, 0.2);
+$background-color_9: #007723;
+$background-color_10: #111948;
+$background-color_11: rgba(0, 0, 0, 0.5);
+$background-color_12: #ffd037;
+$background-color_13: rgba(180, 3, 58, 0.7);
+$background-color_14: transparent;
+$background-color_15: #1a2a35;
+$background-color_16: rgba(255, 255, 255, 0.1);
+$background-color_17: #424b5a;
+$color-gainsboro-100: #e7e7e7;
+$color-gainsboro-200: #dadada;
+$color-silver: #c4c4c4;
+$color-mediumblue: #0d00be;
+$color-gray-800: rgba(0, 0, 0, 0.2);
+$color-midnightblue-100: #2a1b75;
+$color-thistle: #cfcbe2;
+$pantone-7461-c: #0070b3;
+
+
+/*Gaps*/
+$gap-xs: 12px;
+$gap-lg: 18px;
+$gap-7xs: 6px;
+$gap-sm: 14px;
+$gap-mini: 15px;
+$gap-11xs: 2px;
+$gap-5xs: 8px;
+
+/* Paddings */
+$padding-xs: 12px;
+$padding-5xs: 8px;
+$padding-lg: 18px;
+$padding-xl: 20px;
+$padding-9xs: 4px;
+$padding-3xs: 10px;
+$padding:5px 0;
+$padding-8xs: 5px;
+  
+/* border radiuses */
+$br-7xs: 6px;
+$br-9xs: 4px;
+$br-11xs: 2px;
+$br-3xs: 10px;
+$br-5xs: 8px;
+$br-81xl: 100px;
+$br-21xl: 40px;
+$br-xl: 20px;
+$br-42xl: 61px;
+
+
+%gk {
+    position: absolute;
+    top: 66px;
+    opacity: 0.6;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: $font-size-2xs;
+    color: $color_1;
+    font-family: $myFont;
+}
+%player5{
+    position: absolute;
+    left: 0;
+    width: 375px;
+}
+option{
+    background-color: $background-color_2;
+}
+
+
